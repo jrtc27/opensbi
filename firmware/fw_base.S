@@ -501,6 +501,7 @@ _skip_trap_exit_rv32_hyp:
 	/* We don't expect to reach here hence just hang */
 	j	_start_hang
 
+	.data
 	.align 3
 #ifdef FW_PIC
 _runtime_offset:
